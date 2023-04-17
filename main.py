@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from numpy import nan
-csvff = "Embeddingpkl_csv/changkoudaxiao_K/199_K=4.pkl.csv"
+csvff = "Embeddingpkl_csv/199_K=4.pkl.csv"
 
 def get_dic():
     df=pd.read_csv(csvff)
