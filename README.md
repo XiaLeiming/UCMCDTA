@@ -17,6 +17,22 @@ We report UCMCDTA, an deep learning model for binding affinity prediction tasks.
 * CUDA
 
 # Usage
+
+to test BindingDB Ki dataset: 
+first
+
+```
+cd ki
+```
+
+and then run
+
+```
+python dataProcess.py 
+```
+
+to generate the files required. Then
+
 ```
 cd ..
 python main.py --dataset ki --mode regression
