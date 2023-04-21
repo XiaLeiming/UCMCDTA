@@ -69,12 +69,7 @@ def get_dic():
     return dic
 
 
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Aug 27 14:21:26 2020
 
-@author: shuyu
-"""
 import torch
 import torch.nn as nn
 import numpy as np
